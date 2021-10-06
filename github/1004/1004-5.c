@@ -2,17 +2,17 @@
 
 int main(void){
     int input;
-    printf("%s","年齡：");
+    printf("%s\n","年齡:");
     scanf("%d",&input);
     if(input<=30){
-        printf("%s","長相");
+        printf("%s\n","長相 (0: 醜, 1: 帥, 2: 中等):");
         scanf("%d",&input);
         if(input>=1){
-            printf("%s","收入");
+            printf("%s\n","收入 (0: 低, 1: 中, 2: 高):");
             scanf("%d",&input);
             if (input>=1){
                 if(input==1){
-                    printf("%s","公務員");
+                    printf("%s\n","是否為公務員 (0: 否, 1: 是):");
                     scanf("%d",&input);
                     if(input==1){
                         printf("見");
