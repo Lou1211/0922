@@ -10,7 +10,11 @@ int main(void){
         b--;
         c++;
     }
-    if (c>=b)
+    if (a<=3&&a!=1)
+    {
+        printf("YES\n");
+    }
+    else if (c>=b)
     {
         printf("YES\n");
     }
