@@ -20,4 +20,5 @@ int a222(int a,int e){
         d=d*i;
     }
     e=(b/c)/d;
+    return e;
 }
