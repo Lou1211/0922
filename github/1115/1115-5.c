@@ -4,7 +4,6 @@ int main(){
     int a,b,c,d,e,s=0;
     scanf("%d%d%d%d",&a,&b,&c,&d);
     int arr1[a][b],arr2[c][d];
-    int arr[b][c];
     for (int i = 0; i < a ; i++)
     {
         for (int j = 0; j < b ; j++)

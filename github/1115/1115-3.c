@@ -22,7 +22,7 @@ int main(){
                 for (int x = 0; x < a; x++)
                 {
                     if(arr2[j]==arr1[x]){
-                        arr1[x]=NULL;
+                        arr1[x]=0;
                     }
                 }
                 s++; 
