@@ -23,8 +23,10 @@ void QQ(char a[], int start, int end)
 		for (int i = start; i < end; i++)
 		{
 			swap(&a[i], &a[start]);
+			//printf("%c %c \n", a[i],a[start]);
 			QQ(a, start + 1, end);
 			swap(&a[i], &a[start]);
+			//printf("%c %c \n", a[i],a[start]);
 		}
 	}
 }
