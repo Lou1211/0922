@@ -6,9 +6,8 @@ int main(){
     char B;
     char A;
     gets(a);
-    scanf("%c",&B);
-    scanf("%c",&A);
-    scanf("%c",&A);
+    scanf("%s",&B);
+    scanf("%s",&A);
     for (int i = 0; i < strlen(a); i++)
     {
         if (a[i]==B)
