@@ -7,7 +7,7 @@ int main()
     int i = 0, q = 0;
     while (gets(a[i]) != NULL)
     {
-        if (strlen(a[i]) > q)
+        if (strlen(a[i]) > q)//«e
         {
             q = strlen(a[i]);
         }
